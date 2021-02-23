@@ -21,3 +21,5 @@ Verify your email address in AWS Email Verification or using this code on termin
 ```
 aws ses verify-email-identity --email-address your-email@email
 ```
+
+To deploy this project using claudiaJS you can use the follow command: ```claudia create --region YOUR-AWS-REGION --api-module index --policies policy```
