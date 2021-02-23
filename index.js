@@ -3,7 +3,7 @@ const api = new ApiBuilder()
 
 const createUser = require('./controller/user-controller')
 const getUsers = require('./controller/get-users')
-const sendUserEmail = require('./controller/send-user-email')
+//const sendUserEmail = require('./controller/send-user-email')
 
 api.post('/user', createUser)
 //api.get('/sendmail/{email}', sendUserEmail)
